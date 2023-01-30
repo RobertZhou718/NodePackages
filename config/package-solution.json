@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "mylinks-client-side-solution",
+    "id": "a0c5a0f9-e0ec-47b9-93cd-0de455597299",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.16.1"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "mylinks description"
+      },
+      "longDescription": {
+        "default": "mylinks description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "mylinks Feature",
+        "description": "The feature that activates elements of the mylinks solution.",
+        "id": "35b14b32-f6ab-4290-85b2-b5c51a08b9f6",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/mylinks.sppkg"
+  }
+}
